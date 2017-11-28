@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    8ecdd5768673d7e6236fb9d968f0a0bf180005a9f7382a643c5765080e572eac  BitZeny-Qt.dmg
+    6b1e93931674a20ac8ae882b8e1ae10e0e7ae0a57434595c35ff0f4d784fc21d  BitZeny-Qt.dmg
 - in_manifest: |-
     feb9fb0d5bdcb8e11fbb95309090abee2dc1cc2847c2dd400f9e3f34797c36a3  bitzeny-desc.yml
     512bc0622c883e2e0f4cbc3fedfd8c2402d06c004ce6fb32303cc2a6f405b6df  osx-native-depends-r3.tar.gz
-    5d71a19310409912848285882b3c6b41c133d61dff8209b71e51d6eea977a42d  osx-depends-r6.tar.gz
-    4c8df65f6e7a8e539bf293c14b73109be467fd3353ccc5108ad30090d31e5457  osx-depends-qt-5.2.1-r5.tar.gz
+    45444d63e24a14cd8dd48b59edc9f33db01865dad21e41911e0ae84bd519e44a  osx-depends-r6.tar.gz
+    c391b868deb27e4dca5674977c93d6beb15e287b54193435a473594a4e3a9b80  osx-depends-qt-5.2.1-r5.tar.gz
     da77bb0003fcca5ea8c4e8cb2da8828ded750c54afdcac29ec6f3b46ad5e3adf  MacOSX10.7.sdk.tar.gz
-    git:78416e464fb603c555928289db019713a5110e57 bitzeny
+    git:391f88ee188bcac9712b21e46673fd5e01c3b594 bitzeny
 - base_manifests: !omap
   - precise-i386: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb

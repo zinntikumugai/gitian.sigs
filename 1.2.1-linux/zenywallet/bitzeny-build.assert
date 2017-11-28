@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    ade743e4b4f9576cdb99c3850f82816c0d3c8d86258cdb54fdd62e21a01e20b9  bin/32/bitzeny-cli
-    fe680bf8e8bfca09319e3f08e5d305e1fa04bdd86479feba8aab31e2f1bbba3c  bin/32/bitzeny-qt
-    0f0871b696c6a5819a8011572123d29725bd96375d0035039da568be5addc6e2  bin/32/bitzenyd
-    12fbc0e6c317da6df74f7c821a7f9e1a68933b7c220d83e1a8115906090b329d  bin/32/test_bitcoin
-    4f58325f63051373829d23fb1bfc4735ca6a11a44e2d4af673fca0f992e8537b  bin/32/test_bitcoin-qt
-    6390e57d2b8baab3ae48887508f98ef4549197856c8d80198aa1707979bb9db7  bin/64/bitzeny-cli
-    fec690cb8a7cef34d0a4b3f4582cd24b67f0fbc81f28edafba9db74fd141342f  bin/64/bitzeny-qt
-    9879458782f78599f3671bca7143ec14e3536ebd83dd3f9f73e1188b86951348  bin/64/bitzenyd
-    a5b04b810c552000ea1a2cd83adc4bbcc9516a15b0b18b08cccab70476616159  bin/64/test_bitcoin
-    ac73fc25da15b1b89fa089370d4996770e2a7922b09b02c8f184b4e995ec1b2d  bin/64/test_bitcoin-qt
-    9caee7e825694bb0df6a28d0f85c1a7e92d0bb6463ab594c5f0c08b23ba90c63  src/bitzeny-1.2.1.tar.gz
+    87e759cda5ec35bf16015128def528cd4aa030da09d51da3584f3fa477e1f391  bin/32/bitzeny-cli
+    87e785b2747b03746f3a2c81f075b6a491a6f6d85baf721e2086bc6886c09386  bin/32/bitzeny-qt
+    2da390b742c08b5a2650120a04e57290318b6245fb6ede2f44a7c5699bb1ccc5  bin/32/bitzenyd
+    d94f0ed32af5c0a308a4784962f7dafdb1fdc4ba5e98f5fbf77dd7ed53d05b29  bin/32/test_bitcoin
+    7b8887df33ff9da4effcc1f5aac652130df788c1e72bf8e957ad0feb10492b4c  bin/32/test_bitcoin-qt
+    543b139682dd188576eba7f09fe7db972cdc4882730b32a2753a84aa3c49c911  bin/64/bitzeny-cli
+    109420662f8707139a86bb71b11beca65a736a09aa809b4bc71227f618a04803  bin/64/bitzeny-qt
+    a82befe764e32ac0b2782dcdb129946c6789c67678978b860540639c0016a1a5  bin/64/bitzenyd
+    7408337d892e2d832976588d8979da38fb5616a92805f017ce5dd30f3a96b2d3  bin/64/test_bitcoin
+    4a08638870a245eff66bd1c202ed01205a4367adfa5b5daf298fc911550e5c5b  bin/64/test_bitcoin-qt
+    fad054e1c68d7611f881f8d72a8ae9ea46dab925ba4a3e7407a057f48f650100  src/bitzeny-1.2.1.tar.gz
 - in_manifest: |-
     fdf3347861493fdc68f4714e40a60e9ebe3835d69e21c1a32aca2e6e02fcc4f3  bitzeny-desc.yml
     d8bb8fc78bc7e3e97d55076158f6c4bb79387e8bc8244887c285df4b0e4fe6fe  bitcoin-deps-linux32-gitian-r8.zip
@@ -19,7 +19,7 @@
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
     57e57dbdadc818cd270e7e00500a5e1085b3bcbdef69a885f0fb7573a8d987e1  qt-linux32-4.6.4-gitian-r1.tar.gz
     60eb4b9c5779580b7d66529efa5b2836ba1a70edde2a0f3f696d647906a826be  qt-linux64-4.6.4-gitian-r1.tar.gz
-    git:78416e464fb603c555928289db019713a5110e57 bitzeny
+    git:391f88ee188bcac9712b21e46673fd5e01c3b594 bitzeny
 - base_manifests: !omap
   - precise-i386: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb

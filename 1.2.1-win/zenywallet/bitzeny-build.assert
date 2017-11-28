@@ -1,18 +1,18 @@
 --- !omap
 - out_manifest: |
-    69a15be6ae10234462ceab7344cd1cf4540232abe734a9b3f286340bbcc03df6  32/bitzeny-1.2.1-win32-setup.exe
-    fc7787bc075a9cdc6470fe58fe4c87aa07c62ada72ab70578d23e67d6cc78aaa  32/bitzeny-cli.exe
-    754841f3b573d105d3dea9b4be0e7fe76ea4da75f70065bfe592bc314a06ebfb  32/bitzeny-qt.exe
-    d547831acbeb4ee30491904054930995dfa4d2ec6bbe611494737377283b5d1e  32/bitzenyd.exe
-    83c839600a689e397c425eb516fb82891a653335451c2b66e6cae4b63b550fed  32/test_bitcoin-qt.exe
-    8b065c6be68e4f2cc4035a42fd349de597efaf7d98a535fbbaa7e030a6c04b8a  32/test_bitcoin.exe
-    7dd14ee3684b0dc47e17ba945c62d4358ef33c918aab0b938153b45d86d68d71  64/bitzeny-1.2.1-win64-setup.exe
-    6abc7b08bab6291113e25e12a2773b4bb6675d0f444ead8409c5b9a8f307ef46  64/bitzeny-cli.exe
-    8af2b05982e3e41bf1db3801d0b7c8c754654e3ec2ecea1d9174d6b54e6eeb8a  64/bitzeny-qt.exe
-    f4a0e56814113fcd7715fffed91e82af5ea0799b60bbe588f9172dcf124f5bab  64/bitzenyd.exe
-    bb59c27072dd8e01261727351c5948cc9de66f9ead9e30f4de548e118b7a21a8  64/test_bitcoin-qt.exe
-    e3e45bbcd4a645ee1ea7d0cc590248ee09c1b5a16ed5ff2504c93e5f4b306dd3  64/test_bitcoin.exe
-    9caee7e825694bb0df6a28d0f85c1a7e92d0bb6463ab594c5f0c08b23ba90c63  src/bitzeny-1.2.1.tar.gz
+    512394827efdcccbf260891ec447fe3398dfa0e1e10210c79d76d4dd05bf410c  32/bitzeny-1.2.1-win32-setup.exe
+    67b5d23be998add2944000cf451ef1ce1f055578fb506afd61c4144c281035a7  32/bitzeny-cli.exe
+    9450cdd4bef1b5e7047805b48dbba4af3b03a5e72aafd0b2f70f7c8ad96f04ae  32/bitzeny-qt.exe
+    ea377437212dbd62329e6e1d85219deaf03d161d056eea8d274a6e6e27a1da2f  32/bitzenyd.exe
+    1fb7509c4069b142b3f1ac5955a5cfc1d276f84757a49d8e85c2353209f971ba  32/test_bitcoin-qt.exe
+    bfc39900e1588c53fc235ed4417f5dd1f6a3318110d2fc8af65496bbab6f4b3c  32/test_bitcoin.exe
+    5a436e049d78be687a355bb338d79796e5882aee09852ba0e15a8ac604166ae0  64/bitzeny-1.2.1-win64-setup.exe
+    2c2c0887531f6776ce346bc92a65c53c6863f20cdc70ce9dab372b22aa764264  64/bitzeny-cli.exe
+    c6ced2f5ba71e731ce9e4e1a1980efceb32a142bfbbe08824b9d0495cde72876  64/bitzeny-qt.exe
+    56da6364b1523c436694fc5d909befbeec034da9b6bc669db84415ad8c551171  64/bitzenyd.exe
+    afc3345b311ee9b1de645534d87963ffaa2c12f71fa2cf81380fb31004f8e0b1  64/test_bitcoin-qt.exe
+    5a41958faccb61b4d8cf932892efbeb04fafc2be72d5da59fe1822712ac2c28f  64/test_bitcoin.exe
+    fad054e1c68d7611f881f8d72a8ae9ea46dab925ba4a3e7407a057f48f650100  src/bitzeny-1.2.1.tar.gz
 - in_manifest: |-
     846914c242809cd1e8876e2005857e855aa5c007424e6ac58e7fccb8e500a184  bitzeny-desc.yml
     eab65e30aa6e3c9efac8613e6337093d718bf037fed136dabcbf1e0f789bcea4  qt-win32-5.2.0-gitian-r3.zip
@@ -23,7 +23,7 @@
     7b1fd0b583ca093535d22ca6a67cf03e62b041d9b6063380ba7d2f0a41b7d536  bitcoin-deps-win64-gitian-r15.zip
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
-    git:78416e464fb603c555928289db019713a5110e57 bitzeny
+    git:391f88ee188bcac9712b21e46673fd5e01c3b594 bitzeny
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
