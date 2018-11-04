@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    79fb72af9701839faca52225bd40cc5990ed71030a25453e5eaa79f0ed252e1d  bitzeny-2.0.2-win-unsigned.tar.gz
+    3bb730e26b987cc80b3002fa0777a906699cfc111ebe38d4d7c9942d41955f39  bitzeny-2.0.2-win-unsigned.tar.gz
     1f4774f82b86944815826dd3642f6d741ceb4ebff4d4fd7bdade0171fbde6c91  bitzeny-2.0.2-win32-debug.zip
-    0501228e38ab2ce8de4da14feae923e2ff458483a48fee656f2fe363608ad6f2  bitzeny-2.0.2-win32-setup-unsigned.exe
+    514a0dd39883dd45d8953baca172a83bc81b68d641ea541fdaf62c8277a16305  bitzeny-2.0.2-win32-setup-unsigned.exe
     17836b6124e9dcc44d6a2a099216ee2629c7f60b165ead3b99d46fcb907427d5  bitzeny-2.0.2-win32.zip
     7325b3103e61c3dead8afe8c3d196f729ae6899a2813a609b410e0d535afe227  bitzeny-2.0.2-win64-debug.zip
-    4ff540af72c8f5ab5a49c520228e6639ea77544a280a3862575bc659900a76b4  bitzeny-2.0.2-win64-setup-unsigned.exe
+    48b221a0a1bafe014efbbab76b151fa4ed496e3994f37d1c2f2b883c72e11096  bitzeny-2.0.2-win64-setup-unsigned.exe
     d89eee1c0d08f8816a133ee4cc934e728692cc3a3dd2c0bb83e39fccd1c1293d  bitzeny-2.0.2-win64.zip
     0b409f030da833797c76ea5447a7cdcd7e426274becc957f06890b0586642696  src/bitzeny-2.0.2.tar.gz
 - in_manifest: |-
